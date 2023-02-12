@@ -1,0 +1,45 @@
+h1 {
+    border-bottom: 1px solid lightgray;
+    font-weight: 600;
+  }
+body {
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: left;
+    font-family: Comic Sans, cursive;
+  }
+th, td {
+    border: 2px solid;
+  }
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 350px;
+  }
+a {
+    text-decoration: none;
+  }
+blockquote {
+    border-left: 4px solid lightgray;
+    color: gray;
+    padding-left: 7px;
+  }
+.code {
+    background: mintcream;
+    padding: 10px 0 10px 0;
+  }
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+.logo-image {
+    width: 200px;
+    height: 50px;
+    text-align: right;
+}
+.GitHub {
+    padding-top: 15px;
+}
