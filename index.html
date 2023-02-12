@@ -1,19 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
- 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
- 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
- 
-  <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
- <body>
-  <script src="js/scripts.js"></script>
-</body> 
+<html lang="en-US">
+  <head>
+    <title>Kirill Kirienko CV</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my CV written on the HTML and CSS languages">
+    <meta name="keywords" content="Kirill Kirienko, CV, HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <main>
+    <h1><a href="Kirill.jpeg">Kirill Kirienko</a></h1>
+    <h1>Contacts:</h1>
+    <ul>
+      <li>Email- kirill14062002@gmail.com</li>
+      <li>Telegram - <a href="https://t.me/amigobongero">amigobongero</a> </li>
+      <li>Git - <a href="https://github.com/AmigoBongero">AmigoBongero</a> </li>
+    </ul>
+    <h1>About me:</h1>
+    <p>
+      I’m a third year student of MSLU ( Minsk State Linguistic University). I study English and German languages. I am also
+    learning translation. At the moment I have a big desire to learn programming and become a programmer in the future and I
+    study at rs school to achive this.
+    </p>
+    <blockquote>
+      <p>“If you can dream it, you can do it.” ― <em>Walt Disney</em></p>
+    </blockquote>
+    <h1>Skills:</h1>
+    <ul>
+      <li>Git</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+    <h1>Code example:</h1>
+    <pre class="code">
+    int[] a;
+    int n;
+    Scanner in = new Scanner(System.in);
+    System.out.print("Enter numbers of array:");
+    n = in.nextInt();
+    a = new int[n];
+    for (int i = 0; i < n; i++) { 
+      System.out.print("Enter a[" + i + "] = " ); 
+      a[i]=in.nextInt(); 
+    } 
+    </pre>
+    <h1>Work experience:</h1>
+    <ul>
+      <li>I don’t have any work experience, but I’m willing to learn new</li>
+    </ul>
+    <h1>Education:</h1>
+     <ul>
+       <li>Incomplete university degree (<a href="https://mslu.by/">MSLU</a>, faculty of interpreting and translation)</li>
+     </ul>
+     <h1>Languages:</h1>
+      <table>
+       <thead>
+         <tr>
+           <th>Language</th>
+           <th>Level</th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td>English</td>
+           <td>B2</td>
+         </tr>
+         
+         <tr>
+           <td>German</td>
+           <td>A2</td>
+         </tr>
+         
+         <tr>
+           <td>Russian</td>
+           <td rowspan="2">native speaker</td>
+         </tr>
+
+         <tr>
+           <td>Belarusian</td>
+         </tr>
+       </tbody>
+     </table>
+    </main>
+
+    <footer>
+      <div><p class="date-of-creation">Created in 2023<p></div>
+      <div class="GitHub"><a href="https://github.com/AmigoBongero" class="my-github">Me on GitHub</a></div>
+      <div class="logo-image"><a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rs-logo" class="rs-logo" height="50px"></a></div>
+    </footer>
+  </body>
 </html>
